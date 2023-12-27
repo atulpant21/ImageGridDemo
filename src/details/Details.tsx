@@ -13,7 +13,6 @@ const DetailScreen = ({ route, navigation }: any) => {
     
   
     useEffect(() => {
-        console.log(">>>>> " + item.id);
       Animated.timing(opacity, {
         toValue: 1,
         duration: 200,
